@@ -1,0 +1,53 @@
+{
+  "id": "/subscriptions/afecac11-2bb4-4c0d-bf70-04f3a35c66fa/resourceGroups/webappresource/providers/Microsoft.Resources/deployments/Microsoft.Template-20231203124348",
+  "name": "Microsoft.Template-20231203124348",
+  "type": "Microsoft.Resources/deployments",
+  "properties": {
+    "templateHash": "2542862617717664616",
+    "parameters": {
+      "virtualMachines_bunnh_name": {
+        "type": "String",
+        "value": "bunnh"
+      },
+      "disks_bunnh_disk1_09acd4b3a59c48d8827b464f73af4807_externalid": {
+        "type": "String",
+        "value": "/subscriptions/afecac11-2bb4-4c0d-bf70-04f3a35c66fa/resourceGroups/webappresource/providers/Microsoft.Compute/disks/bunnh_disk1_09acd4b3a59c48d8827b464f73af4807"
+      },
+      "networkInterfaces_bunnh855_z1_externalid": {
+        "type": "String",
+        "value": "/subscriptions/afecac11-2bb4-4c0d-bf70-04f3a35c66fa/resourceGroups/webappresource/providers/Microsoft.Network/networkInterfaces/bunnh855_z1"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2023-12-03T17:43:53.8774432Z",
+    "duration": "PT2.5089568S",
+    "correlationId": "501d4407-da06-4b2f-8137-85245bd2e625",
+    "providers": [
+      {
+        "namespace": "Microsoft.Compute",
+        "resourceTypes": [
+          {
+            "resourceType": "virtualMachines",
+            "locations": [
+              "eastus"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "outputResources": [
+      {
+        "id": "/subscriptions/afecac11-2bb4-4c0d-bf70-04f3a35c66fa/resourceGroups/webappresource/providers/Microsoft.Compute/virtualMachines/bunnh"
+      }
+    ],
+    "validationLevel": "Template"
+  },
+  "tags": {
+    "marketplaceItemId": "Microsoft.Template"
+  }
+}

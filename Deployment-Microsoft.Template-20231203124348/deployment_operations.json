@@ -1,0 +1,31 @@
+[
+  {
+    "id": "/subscriptions/afecac11-2bb4-4c0d-bf70-04f3a35c66fa/resourceGroups/webappresource/providers/Microsoft.Resources/deployments/Microsoft.Template-20231203124348/operations/861EF3D2ED95600E",
+    "operationId": "861EF3D2ED95600E",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2023-12-03T17:43:53.7354751Z",
+      "duration": "PT1.9149632S",
+      "trackingId": "6bdd8f8d-33a9-4507-bd3d-2d1234041b52",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/afecac11-2bb4-4c0d-bf70-04f3a35c66fa/resourceGroups/webappresource/providers/Microsoft.Compute/virtualMachines/bunnh",
+        "resourceType": "Microsoft.Compute/virtualMachines",
+        "resourceName": "bunnh"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/afecac11-2bb4-4c0d-bf70-04f3a35c66fa/resourceGroups/webappresource/providers/Microsoft.Resources/deployments/Microsoft.Template-20231203124348/operations/08584999814545032985",
+    "operationId": "08584999814545032985",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2023-12-03T17:43:53.8505506Z",
+      "duration": "PT2.0300387S",
+      "trackingId": "6628a274-f7b3-4b75-8ef4-22dd148b3b32",
+      "statusCode": "OK"
+    }
+  }
+]
